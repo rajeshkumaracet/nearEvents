@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Dosis|Questrial" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>NearEvents</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card card mt-3 card1">
+        <div class="card-title">
+            <h1 class="display-2 text-center">NearEvents</h1>
+            <p class="lead text-center">( Find events near us! )</p>
+        </div>
+        <div class="card-body ">
+
+            <form id="eventbr">
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Cities or Type</label>
+                  <div class="col-sm-9">
+                <input type ="text" class="form-control" placeholder="- E.g: Chennai, Banglore or E.g: AI, Blockchain -" id ="cities">
+                   </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword" class="col-sm-3 col-form-label">Catergory</label>
+                  <div class="col-sm-9">
+                      <select class="form-control" id="category">
+                        <option disabled selected>-Select-</option>
+                      </select>
+
+                  </div>
+                </div>
+                <button id="formSub" class="btn btn-outline-warning btn-block"><i class="fas fa-search-location"></i> Find Events</button>
+              </form>
+        </div>
+        <div class="text-center img">
+            <img src="pre.gif"/>
+            </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+</div>
+<div class="card-columns m-5" id="result">
+
+  </div>
+<script src="api.js"></script>
+<script src="ui.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
