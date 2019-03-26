@@ -6,6 +6,9 @@
 
 @media (max-width: 600px) {
 
+  
+  body{
+    height:100vh;
 
   h1 {
     font-family: "Dosis", sans-serif;
