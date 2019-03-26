@@ -1,4 +1,11 @@
 @media (max-width:600px){
+  
+  body{
+    width:100%;
+    height:100%;
+    
+  }
+  
   h1{
     font-family: 'Dosis', sans-serif;
     background:linear-gradient(to right,rgb(28, 37, 163),rgba(176, 177, 179, 0.5));
