@@ -1,7 +1,7 @@
 class EventBrite {
 
 constructor(){
-  this.auth_token = "SRPRW3OCLVMRQGMQC5YD";
+  this.auth_token = "WEHPJEMVAPIROWIRVOOU";
 }
 
 //get Events
