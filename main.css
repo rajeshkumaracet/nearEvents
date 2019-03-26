@@ -13,10 +13,15 @@
   .card-title{
     margin-bottom: 2px !important;
   }
-  .card-columns {
+   .card-columns {
     column-count: 1;
+    /* margin:10px !important; */
+    width:100% !important;
+    margin-top:20px !important;
+    margin-right:20px !important;
+    padding:2% !important;
+  }
 
-}
 }
 
 *{
