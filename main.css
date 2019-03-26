@@ -6,9 +6,6 @@
 
 @media (max-width: 600px) {
 
-  
-  body{
-    height:100vh;
 
   h1 {
     font-family: "Dosis", sans-serif;
@@ -18,7 +15,7 @@
       rgba(176, 177, 179, 0.5)
     );
     background: cover;
-    font-size: 30px !important;
+    font-size: 35px !important;
     font-weight: bold;
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -36,12 +33,12 @@
   }
 
 }
-/* @media (min-width: 750px) {
+@media (min-width: 750px) {
   .card-columns {
     column-count: 2;
     margin-top:20px !important;
     margin:20px !important;
-  } */
+  }
 }
  @media (min-width: 900px) {
   .card-columns {
